@@ -6,6 +6,8 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 .containerhome{
     align-items: center;
     height: 45px;
@@ -15,6 +17,7 @@ body{
     width: 100%;
     
 }
+
 
 ul{
     display: flex;
@@ -32,14 +35,21 @@ ul{
     width: 90px;
     height: 20px;
 }
+.fa-regular{
+    color: white;
+}
+.fa-solid{
+    color: white;
+}
 
 .containerbool{
+    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 50px auto;
     width: 650px;
-    background-color: lightpink;
+    background-color: white;
 
 }
 .containerbool img{
@@ -51,6 +61,18 @@ ul{
     position: relative;
     cursor: pointer;
 }
+
+.img2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+div.card:hover .img2{
+    display: block;
+}
+    
+
 .card .like{
     position: absolute;
     top: 0;
@@ -64,3 +86,32 @@ ul{
 }
 
 
+.card .discount{
+    position: absolute;
+    bottom: 50px;
+    left:20px;
+    background-color: red;
+    color: white;
+    font-size: 0.65rem;
+}
+
+.card .sustainability{
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    bottom: 60px;
+    left:0px;
+    background-color: green;
+    color: white;
+    font-size: 0.5rem;
+
+}
+.specific{
+    font-size:5%;
+}
+.specific p{
+    color: gray;
+}
+.specific span{
+    color: red;
+}
