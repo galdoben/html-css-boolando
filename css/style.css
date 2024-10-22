@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 .containerhome{
     align-items: center;
-    height: 50px;
+    height: 45px;
     justify-content: space-around;
     display: flex;
     background-color: orange;
@@ -25,7 +28,39 @@ ul{
 .nav ul li a:hover{
     text-decoration: underline;
 }
-img{
-    width: 80px;
-    height: 30px;
+.imglogo img{
+    width: 90px;
+    height: 20px;
 }
+
+.containerbool{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 650px;
+    background-color: lightpink;
+
+}
+.containerbool img{
+    width: 210px;
+    height: 300px;
+}
+.card{
+    margin: 1px;
+    position: relative;
+    cursor: pointer;
+}
+.card .like{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 2px 6px;
+}
+.card span:hover{
+    color: red;
+
+}
+
+
