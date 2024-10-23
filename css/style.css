@@ -32,6 +32,9 @@ ul{
 .nav ul li a:hover{
     text-decoration: underline;
 }
+header .nav{
+    width: 3%;
+}
 .imglogo img{
     width: 90px;
     height: 20px;
@@ -58,7 +61,7 @@ ul{
     height: 300px;
 }
 .card{
-    margin: 1px;
+    margin: 3px;
     position: relative;
     cursor: pointer;
 }
